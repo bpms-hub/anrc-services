@@ -1,0 +1,1 @@
+$(document).foundation({orbit:{animation:"slide",timer_speed:6700,animation_speed:750,navigation_arrows:!0,slide_number:!1,timer_progress_class:"orbit-progress",timer_show_progress_bar:!1,bullets:!1,swipe:!0}});

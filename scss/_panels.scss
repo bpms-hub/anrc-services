@@ -1,0 +1,278 @@
+  $sw-red: #DC3522;
+  $sw-creme: #D9CB9E;
+  $sw-forest: #374140;
+  $sw-grey: #2A2C2B;
+  $sw-black: #1E1E20;
+
+  $to-brown: #595241;
+  $to-tan: #B8AE9C;
+  $to-white: #FFFFFF;
+  $to-blue: #ACCFCC;
+  $to-red: #8A0917;
+  $to-red2: #641417;
+
+body
+{
+ display: none;
+}
+
+
+
+.hr.whitebg { $bg: $sw-grey }
+
+
+.section_title { font-size: emCalc(48px); }
+
+.nav-panel
+{
+  // display:none;
+
+  .title-area {
+
+  }
+}
+
+.top-bar-section {
+
+   background: url("../images/backgrounds/subtle_dots/subtle_dots.png");
+
+   //rgba($sw-grey ,0.12);
+
+   //color: #262626;
+   //
+   h5{font-size: emCalc(12px); color: white; text-align: left;margin: 1.33em 0 1em 0;}
+   //
+   h6
+   {
+    font-size: emCalc(12px);
+    color: white;
+    margin: 1.25em 0 1em 0;
+    letter-spacing: -.5px;
+   }
+
+}
+
+.hero-panel {
+
+    a { color: white }
+
+  h3, h5 {font-size: emCalc(12px); font-weight: 500; letter-spacing: -.066em;}
+
+  h1, h2, h3, h4, h5, h6
+  {
+    // font-size: emCalc(14px);
+  }
+
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg:$to-red2,
+
+    // Sets the panel padding amount. Default: $panel-padding
+    $padding:0px,
+    // Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust
+    $adjust:true
+  );
+}
+
+.company-panel {
+  padding: 10px;
+  background-image:url("../images/backgrounds/subtlenet2/subtlenet2.png");
+     h1 {
+      color: lighten(#000000, 10%);
+     font-size: emCalc(56px);
+     }
+
+     h2
+     {
+      color: lighten(#000000, 31%);
+     }
+
+
+     h3
+     {
+      color: lighten(#000000, 25%);
+      font-size: emCalc(18px);
+     }
+
+    ul
+    {
+    color: lighten(#821a1e, 5%);
+    }
+
+    h6
+    {
+      font-size: emCalc(21px);
+      color: #222;
+      letter-spacing: -1px;
+    }
+
+    p
+    {
+      color: #222;
+    }
+
+
+
+}
+
+
+.section_title {
+  font-size: emCalc(24px);
+}
+
+.training-panel {
+
+  padding: 5px;
+
+ i.fa.fa-certificate{
+     color: white;
+ }
+
+  h2{
+    color: white;
+    text-align: left;
+    font-size: emCalc(18px);
+    }
+
+  h3{  color: $silver;
+       text-align: left;
+       font-size: emCalc(15px);
+      font-weight: bold;
+  }
+
+
+  h1, h4,  p, hr
+      {
+       color: white;
+       text-align: left;
+      }
+
+  h5{font-size: emCalc(16px); color: white; text-align: left;}
+  h6{font-size: emCalc(14px); color: $silver; text-align: left;}
+
+ background-image:url("../images/backgrounds/use_your_illusion/use_your_illusion.png");
+}
+
+.research-panel {
+
+  padding: 5px;
+  h2{
+    color: white;
+    text-align: left;
+    font-size: emCalc(18px);
+    }
+
+  h3{  color: $silver;
+       text-align: left;
+       font-size: emCalc(15px);
+      font-weight: bold;
+  }
+
+  h1, h4,  p, hr
+      {
+       color: white;
+       text-align: left;
+      }
+
+  h5{font-size: emCalc(14px); color: white; text-align: center;}
+  h6{font-size: emCalc(14px); color: $silver; text-align: left;}
+
+ background-image:url("../images/backgrounds/use_your_illusion/use_your_illusion_@2X.png");
+}
+
+.clients-panel {
+  a, h1, h2, h3, h4, h5, h6 { color: white }
+   .copywrite { font-size: emCalc(12px)}
+   h5 { font-size: emCalc(12px)}
+//background: url("../images/backgrounds/subtle_carbon-2/subtle_carbon.png");
+background-image:url("../images/backgrounds/subtlenet2/subtlenet2.png");
+
+img {
+ color: rgba($sw-grey ,1);
+// height: 100%;
+// z-index: 2;
+//opacity: .5;
+}
+
+}
+
+.products-panel {
+  padding: 5px;
+    h6 {font-size: emCalc(21px); font-weight: 300; letter-spacing: -.070em; color: #333333;}
+  h3 {font-size: emCalc(28px); font-weight: 600; letter-spacing: -.066em; color: #444444;}
+     p{font-size: emCalc(16px); color: #222;}
+     background-image:url("../images/backgrounds/subtlenet2/subtlenet2.png");
+}
+
+.students-panel {
+  padding: 5px; background-image:url("../images/backgrounds/tiny_grid/tiny_grid.png");
+  h3 {font-size: emCalc(21px); font-weight: 300; letter-spacing: -.070em; color: #333333;}
+  h6 {font-size: emCalc(28px); font-weight: 600; letter-spacing: -.066em; color: #444444;}
+}
+
+.careers-panel {
+
+  padding: 5px;
+  h2{
+    color: white;
+    text-align: left;
+    font-size: emCalc(18px);
+    }
+
+  h3{  color: white;
+       text-align: left;
+       font-size: emCalc(15px);
+      font-weight: bold;
+  }
+
+  h1, h4,  p, hr
+      {
+       color: white;
+       text-align: left;
+      }
+
+  h5{font-size: emCalc(16px); color: white; text-align: left;}
+  h6{font-size: emCalc(14px); color: $silver; text-align: left;}
+
+ background-image:url("../images/backgrounds/use_your_illusion/use_your_illusion.png");
+}
+
+
+.contact-panel {
+  background-image:url("../images/backgrounds/subtlenet2/subtlenet2.png");
+  //padding: 5px;
+    h1{color: black;}
+    h5{font-size: emCalc(16px);}
+
+   ul{font-size: emCalc(12px); letter-spacing: -.5px; color: $silver; text-align: center;}
+}
+
+.footer {
+h3, h4,  h6, { color: $silver }
+h1 {color: #ffffff}
+ a, h2, h5, {color: #ffffff}
+
+   .copywrite { font-size: emCalc(11px);
+
+    color: $silver}
+
+
+   h5 { font-size: emCalc(14px)}
+background: url("../images/backgrounds/subtle_carbon-2/subtle_carbon.png");
+ // background:url("../images/backgrounds/subtle_dots/subtle_dots.png");
+  // @include panel($bg: $sw-black, $padding: 5px, $adjust:true)
+hr {
+   color:  $to-red
+ }
+
+
+        }
+
+#privacyModal {
+  h3 {font-size: emCalc(28px); font-weight: 300; letter-spacing: -.070em; color: #333333;}
+  h6 {font-size: emCalc(14px); font-weight: 600; letter-spacing: -.066em; color: #444444;}
+  h5 {font-size: emCalc(14px); }
+  background:url("../images/backgrounds/subtle_dots/subtle_dots.png");
+    #privacySub {font-size: emCalc(16px); font-weight: 100;}
+   #privacyTitles {font-size: emCalc(32px); font-weight: 300; letter-spacing: -.075em; color: #333333;}
+}

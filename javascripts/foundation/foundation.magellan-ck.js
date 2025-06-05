@@ -1,0 +1,1 @@
+$(document).foundation({active_class:"active",threshold:0,destination_threshold:20,throttle_delay:50});
