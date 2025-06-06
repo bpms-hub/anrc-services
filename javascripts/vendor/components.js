@@ -12,14 +12,30 @@
 
 //SMART TICKER
 
+//SlickMagic
+
+
+
+//
+$(document).ready(function(){
+  $('.your-class').slick({
+      arrows: false,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+          dots: true,
+             autoplay: true,
+  autoplaySpeed: 5000
+  });
+});
 
 
  (function()
   {
     $('.target').smarticker({
           theme: 2,
-          // Defines SmarTicker Style: 1, 2, 3, 4 ...
-          direction: 'ltr',
+          // Def
+          // ion: 'ltr',
           layout: 'horizontal',
           animation: 'default', // Defines transition of news titles: default, fade, slide, typing...
           category: true,
@@ -50,22 +66,6 @@ $(window).load(function(){
 
 });
 
-//SlickMagic
-
-
-
-//
-$(document).ready(function(){
-  $('.your-class').slick({
-      arrows: false,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-          dots: true,
-             autoplay: true,
-  autoplaySpeed: 5000
-  });
-});
 
 //ScrollMagic
 
